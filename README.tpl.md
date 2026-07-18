@@ -1,4 +1,4 @@
-[![Downloads](https://img.shields.io/endpoint?url=https://gem-badge-h3lg.onrender.com/downloads/one_gadget)](https://rubygems.org/gems/one_gadget)
+[![Downloads](https://img.shields.io/gem/dt/one_gadget)](https://rubygems.org/gems/one_gadget)
 
 
 [![Gem Version](https://badge.fury.io/rb/one_gadget.svg)](https://badge.fury.io/rb/one_gadget)
