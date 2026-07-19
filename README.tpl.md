@@ -32,6 +32,7 @@ Note: requires ruby version >= 2.1.0, you can use `ruby --version` to check.
 - [x] i386
 - [x] amd64 (x86-64)
 - [x] aarch64 (ARMv8)
+- [x] arm (ARMv7, A32/Thumb-2)
 
 ## Implementation
 
@@ -113,6 +114,12 @@ SHELL_OUTPUT_OF(one_gadget /lib32/libc.so.6)
 SHELL_OUTPUT_OF(one_gadget spec/data/aarch64-libc-2.27.so)
 ```
 ![aarch64](https://github.com/david942j/one_gadget/blob/master/examples/aarch64.png?raw=true)
+
+##### ARM32
+
+```bash
+SHELL_OUTPUT_OF(one_gadget spec/data/arm-libc-2.39.so)
+```
 
 #### Combine with Script
 Pass your exploit script as `one_gadget`'s arguments, it can
